@@ -1,0 +1,12 @@
+.card-component-icon{
+
+    display: flex;
+    align-items: center;
+}
+
+.card-component-icon img{
+
+    margin-right: 3px;
+    margin-left: 3px
+}
+

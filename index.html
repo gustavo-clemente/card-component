@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> Card Componente</title>
-        <link rel="icon" href="images/favicon-32x32.png">
+<head>
 
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/card.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Card Componente</title>
+    <link rel="icon" href="images/favicon-32x32.png">
 
-    </head>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/icon.css">
 
-    <body>
+</head>
+
+<body>
 
 
-        <main>
+    <main>
+
+        <div class="container">
 
             <div class="card-component">
 
@@ -32,25 +36,41 @@
     
                     <div class="card-component-info">
     
-                        <span class="text-cyan"><i class="icon icon-ethereum"></i>0.041 ETH</span>
-                        <span>3 days left</span>
+                        <div class="card-component-icon">
+    
+                            <img src="images/icon-ethereum.svg" alt="ethereum" />
+                            <span class="text-cyan">0.041 ETH</span>
+    
+    
+                        </div>
+    
+                        <div class="card-component-icon">
+    
+                            <img src="images/icon-clock.svg" alt="clock" />
+                            <span>3 days left</span>
+                        </div>
+    
+    
                     </div>
                 </div>
     
                 <div class="card-component-footer">
     
                     <div class="card-component-avatar">
-
+    
                         <img src="images/image-avatar.png" alt="avatar">
                     </div>
-                    
-                    <p>Creation of <span class="text-white"> Gustavo Clemente</span></p>
+    
+                    <p>Creation of <span class="text-white author"> Gustavo Clemente</span></p>
                 </div>
     
             </div>
-
-        </main>
-            
+        </div>
         
-    </body>
+
+    </main>
+
+
+</body>
+
 </html>
