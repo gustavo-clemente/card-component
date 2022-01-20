@@ -6,6 +6,7 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .card-component{
@@ -13,7 +14,8 @@
     padding: 30px;
     border-radius: 30px;
     background-color: var(--card-color);
-    width: 250px;
+    width: 15rem;
+    max-width:100%;
     color: var(--soft-blue);
     position: relative;
     bottom: 0;
