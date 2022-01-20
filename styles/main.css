@@ -1,0 +1,53 @@
+:root{
+
+    --soft-blue:hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-color:hsl(217, 54%, 11%);
+    --card-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-VariableFont_wght.ttf");
+}
+
+body{
+
+    background-color: var(--main-color);
+    font-family: "Outfit";
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+p{
+
+    font-size: 14px;
+}
+
+.text-cyan{
+
+    color: var(--cyan) !important;
+}
+
+.text-white{
+
+    color: var(--white) !important;
+}
+
+.icon{
+
+    height: 20px;
+    width: 20px;
+    display: inline;
+    margin-right: 4px;
+}
+
+.icon-ethereum{
+
+    background-image: url("../images/image-equilibrium.jpg");
+    background-size: contain;
+}
